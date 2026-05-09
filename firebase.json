@@ -1,0 +1,32 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gestionscolariteuatm",
+          "appId": "1:883117483581:android:8efe4839dd510eb628ec54",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "gestionscolariteuatm",
+          "configurations": {
+            "android": "1:883117483581:android:8efe4839dd510eb628ec54",
+            "ios": "1:883117483581:ios:979b6647b0830bf928ec54",
+            "macos": "1:883117483581:ios:979b6647b0830bf928ec54",
+            "web": "1:883117483581:web:44a3aec3641552ba28ec54",
+            "windows": "1:883117483581:web:8a05c1424ec3c07c28ec54"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}

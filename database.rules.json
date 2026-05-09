@@ -1,0 +1,10 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "system_checks": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "paiements",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "etudiantId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "recus",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "etudiantId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateGeneration",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "echeances",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "inscriptionId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "numero",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "inscriptions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "etudiantId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "statut",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "paiements",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "etudiantId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "statut",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "paiements",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "statut",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883117483581",
+    "project_id": "gestionscolariteuatm",
+    "storage_bucket": "gestionscolariteuatm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883117483581:android:8efe4839dd510eb628ec54",
+        "android_client_info": {
+          "package_name": "com.example.uatm_paiements"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1JJCjEXxuzUKhgKqG2DCPpdl0BDvSSyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
